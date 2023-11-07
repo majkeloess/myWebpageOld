@@ -1,0 +1,51 @@
+@import "./nRoot.css";
+
+.intros{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      padding-top: 100px;
+      padding-bottom: 100px;
+}
+
+.intros img{
+      max-width: 300px;      
+}
+
+
+
+.intro p {
+      font-size: 1rem;
+      line-height: 1.5;
+}
+
+.intro .name {
+      font-family: var(--mono);
+      font-size: 1rem;
+}
+
+.name span {
+      font-size: 4rem;
+      color: var(--honey);
+      display: block;
+      font-weight: 300;
+}
+.media{
+      list-style-type: none;
+      padding: 0;
+      margin: 2rem 0;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      gap: 3rem;
+      font-size: 3rem;
+}
+
+.media-links .media li a i{
+      color: var(--honey);
+}
+
+.media-links .media li a i:hover{
+      color: white;
+}

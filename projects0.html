@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/x-icon" href="./images/main_icon.png">
+      <title>calculator </title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet">
+      <link rel="stylesheet" href="./styles/projects-calc.css">
+</head>
+
+<body>
+      <nav class="nav-bar">
+            <ul>
+                  <li><img class="nav-img" src="./images/main_icon.png" alt=""></img></li>
+                  <li>
+                        <h1>
+                              <a href="index.html">majkeloess</a>
+                        </h1>
+                  </li>
+                  <li><a href="./whoami.html">whoami</a></li>
+                  <li><a href="./about.html">about</a></li>
+                  <li><a href="./projects.html">projects</a></li>
+                  <li><a href="./articles.html">articles</a></li>
+
+            </ul>
+      </nav>
+      <div class="center-container">
+
+            <div class="calculator">
+                  <div class="display-area">
+                        <p class="output"></p>
+                  </div>
+                  <div class="calculator-area">
+                        <div class="button-area">
+                              <button class="c">C</button>
+                              <button class="arrow"><span class="fa-solid fa-arrow-left"></span></button>
+                              <button class="divide"><span class="fa-solid fa-divide"></span></button>
+                              <!-- line -->
+                              <button class="seven">7</button>
+                              <button class="eight">8</button>
+                              <button class="nine">9</button>
+                              <button class="multiply"><span class="fa-solid fa-xmark"></span></button>
+                              <!-- line -->
+                              <button class="four">4</button>
+                              <button class="five">5</button>
+                              <button class="six">6</button>
+                              <button class="substract"><span class="fa-solid fa-minus"></span></button>
+                              <!-- line -->
+                              <button class="one">1</button>
+                              <button class="two">2</button>
+                              <button class="three">3</button>
+                              <button class="add">
+                                    <spi class="fa-solid fa-plus"></span>
+                              </button>
+                              <!-- line -->
+                              <button class="zero">0</button>
+                              <button class="equal"><span class="fa-solid fa-equals"></span></button>
+                        </div>
+                  </div>
+            </div>
+            <section class="media-links">
+                  <ul class="media">
+
+                        <li>
+                              <a href="https://github.com/aloesss/calculator" target="_blank"><i
+                                          class="fa-brands fa-square-github fa-xl" aria-hidden="true"></i><span
+                                          class="sr-only">Github</span></a>
+                        </li>
+                        <li>
+                              <a href="./projects.html"> <i class="fa-solid fa-arrow-left fa-xl"
+                                          aria-hidden="true"></i><span class="sr-only">Go back</span></a>
+                        </li>
+                  </ul>
+            </section>
+      </div>
+      <footer>
+            <p><small>&copy; 2023 Michal Saturczak. All rights reserved.</small></p>
+      </footer>
+      <script type="module" src="./scripts/calculatorEngine.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+@import './nRoot.css';
+
+:root {
+      --dark-pink:#F280BF;
+      --light-pink:#F1AEF2;
+      --blue:#ACB7F2;
+      --light-green:#99F2E9;
+      --dark-green:#80F2D2;
+      --font-r: 'Roboto Mono', monospace;
+}
+html {
+      box-sizing: border-box;
+}
+
+body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.calculator{
+      margin-top: 80px;
+}
+
+.calculator-area {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 446px;
+      max-height: 600px;
+}
+.display-area{
+      width: 446px;
+      height: 85px;
+      color: white;
+      font-size: 300%;
+      font-family: var(--font);
+      text-align: end;
+      /* margin: 10px 10px 10px 10px; */
+}
+.output{
+      padding: 0;
+      margin: 0;
+      font-size: 5rem;
+}
+
+button {
+      background-color: var(--dark-pink);
+      /* Green */
+      border: none;
+      color: var(--black);
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      /* padding: 5px 5px 5px 5px; */
+      margin: 4px 2px 6px 2px;
+      font-size: 300%;
+      width: 100px;
+      height: 100px;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: background-color 0.5s ease;
+}
+button:hover{
+      background-color: var(--light-pink);
+}
+.divide, .multiply, .substract, .add, .equal {
+      background-color: var(--dark-green);
+}
+.divide:hover, .multiply:hover, .substract:hover, .add:hover, .equal:hover {
+      background-color: var(--light-green);
+}
+/* BUTTON SIZING */
+.c {
+      width: 212px;
+      height: 100px;
+}
+.zero {
+      width: 326px;
+      height: 100px;
+}
+*,
+*::before,
+*::after {
+      box-sizing: inherit;
+}
+
+.media{
+      list-style-type: none;
+      padding: 0;
+      margin: 2rem 0;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      gap: 3rem;
+      font-size: 3rem;
+}
+
+.media-links .media li a i{
+      color: var(--honey);
+}
+
+.media-links .media li a i:hover{
+      color: white;
+}

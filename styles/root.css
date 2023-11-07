@@ -1,0 +1,81 @@
+:root{
+      --font: 'Sometype Mono', monospace;
+      --l-blue: #295BF2;
+      --d-blue: #2955D9;
+      --black: #0D0D0D;
+      --honey: #F2BA52;
+      --green: #57F29A;
+}
+html {
+      box-sizing: border-box;
+}
+  
+*,
+*::before,
+*::after {
+      box-sizing: inherit;
+}
+  
+
+body{
+      font-family: var(--font);
+      overflow: hidden;
+      background-color: black;
+      color: white;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+}
+
+/* nav bar */
+.nav-img{
+      max-width: 100px;
+}
+
+nav {
+      font-size: 120%;
+      padding: 1rem;
+}
+
+  
+nav ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+}
+
+nav ul li h1 a{
+      color: #F2BA52;
+      font-size: 2.2rem;
+}
+
+nav ul li h1 a:hover{
+      color: white;
+}
+
+
+nav a {
+      color: white;
+      text-decoration: none;
+      display: block;
+}
+
+nav a:hover{
+      color: var(--honey);
+}
+
+.wrapper {
+      flex: 1;
+}
+
+footer{
+      text-align: center;
+      font-size: 120%;
+}
