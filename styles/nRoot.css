@@ -5,19 +5,19 @@
       --black: #0D0D0D;
       --honey: #F2BA52;
       --green: #57F29A;
-    }
+}
     
-    html {
+html {
       box-sizing: border-box;
-    }
+}
     
-    *,
-    *::before,
-    *::after {
+*,
+*::before,
+*::after {
       box-sizing: inherit;
-    }
+}
     
-    body {
+body {
       font-family: var(--font);
       overflow: hidden;
       background-color: black;
@@ -27,63 +27,93 @@
       display: flex;
       flex-direction: column;
       height: 100vh;
-      justify-content: space-between; /* Ustawienie zawartości na środku między nawigacją i stopką */
-    }
+      justify-content: space-between; 
+}
     
     /* nav bar */
-    .nav-img {
+.nav-img {
       max-width: 100px;
-    }
+}
     
-    nav {
+nav {
       font-size: 120%;
       padding: 1rem;
       position: absolute;
       top: 0;
-      width: 100%; /* Navbar na samej górze strony */
-    }
+      width: 100%; 
+}
     
-    nav ul {
+nav ul {
       margin: 0;
       padding: 0;
       list-style-type: none;
+      flex-direction: row;
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
       align-items: center;
-      gap: 2rem;
-    }
+      column-gap: 2rem;
+      row-gap: 1rem;
+}
     
-    nav ul li h1 a {
+nav ul li h1 a {
       color: #F2BA52;
       font-size: 2.2rem;
-    }
+}
     
 nav ul li h1 a:hover {
       color: white;
 }
 
-.center-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-grow: 1;
-  flex-direction: column;
-}
 nav a {
       color: white;
       text-decoration: none;
       display: block;
 }
-    
+
 nav a:hover {
       color: var(--honey);
 }
-    
+
+.center-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 1;
+      flex-direction: column;
+      max-width: 100%; 
+      max-height: 100vh;
+      font-size: 1.5vw;
+      padding: 20px;
+}
+
 footer {
       text-align: center;
       font-size: 120%;
       position: absolute;
       bottom: 0;
-      width: 100%; /* Stopka na samym dole strony */
+      width: 100%; 
+}
+
+.honey{
+      color: var(--honey);
+}
+
+@media (max-width: 900px){
+      nav{
+            font-size: 90%;
+      }
+      .nav-img {
+            max-width: 70px;
+      }
+
+      nav ul li h1 a {
+            color: #F2BA52;
+            font-size: 1.5rem;
+      }
+
+      
+      footer{
+            font-size: 90%;
+      }
 }

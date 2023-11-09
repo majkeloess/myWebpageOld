@@ -1,13 +1,9 @@
 @import "./nRoot.css";
 
-.center-container{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-grow: 1;
-      flex-direction: column;
-}
 
-.honey{
-      color: var(--honey);
+@media (max-width: 900px){
+      .center-container{
+            font-size: 3.5vw;
+            text-align: center;
+      }
 }

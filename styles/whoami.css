@@ -1,10 +1,19 @@
 @import "./nRoot.css";
 
+.center-other{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-grow: 1;
+      max-width: 100%; 
+      max-height: 100vh;
+      padding: 50px;
+}
+/* geninf */
 .general-info{
       display: flex;
       align-items: center;
-      justify-content: center;
-      margin-bottom: 20px;
+      justify-content: space-between;
 }
 .general-info ul li { 
       list-style-type: none;
@@ -20,39 +29,46 @@
 }
     
 .info-item i {
-      margin-right: 25px;
-      font-size: 3rem;
+      margin-right: 2vw;
+      font-size: 3vw;
 }
 .info-item p{
-      font-size: 1.2rem;
+      font-size: 1.2vw;
 }
 .info-item {
-      margin-bottom: 20px;
+      margin-bottom: 1vh;
 }
 
+
+/* tech */
 .tech {
       display: flex;
       align-items: center;
-      justify-content: space-around;
-      flex-direction: row;
+      justify-content: center;
+      flex-direction: column;
 }
-.technologies{
-      margin-right: 200px;
+.technologies, .technologies-learning, .other{
+      margin: 0.5vw;
 }
-.technologies-list, .technologies-learning-list {
+.technologies-list, .technologies-learning-list, .other-list{
       list-style-type: none;
       
 }
 
 h2{
-      margin-bottom: 50px;
+      margin-bottom: 4vh;
+      font-size: 1.2vw;
+      text-align: center;
 }
-.technologies-list li i, .technologies-learning-list li i{
+.technologies-list li i, .technologies-learning-list li i, .other-list li i{
       color: var(--honey);
-      font-size: 4rem;
+      font-size: 2.5vw;
+}
+.technologies-list li p, .technologies-learning-list li p, .other-list li p{
+      font-size: 1.1vw;
 }
 
-.technologies-list, .technologies-learning-list {
+.technologies-list, .technologies-learning-list, .other-list {
       margin: 0;
       padding: 0;
       list-style-type: none;
@@ -60,10 +76,41 @@ h2{
       flex-flow: row wrap;
       justify-content: center;
       align-items: center;
-      gap: 5rem;
+      column-gap: 4vw;
 }
 
 .technologies-list li,
-.technologies-learning-list li{
-  text-align: center; /* Wyśrodkowanie tekstu pod ikoną */
+.technologies-learning-list li,
+.other-list li{
+  text-align: center; 
+}
+
+@media (max-width: 650px){
+      h2{
+            font-size: 3vw;
+            margin: 0.8rem;
+      }
+      .center-other{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+      }
+      .general-info{
+            margin-top: 10vh;
+      }
+      .info-item i{
+            font-size: 4vw;
+      }
+      .info-item p{
+            font-size: 2vw;
+      }
+      .technologies-list li i, .technologies-learning-list li i, .other-list li i{
+            font-size: 10vw;
+      }
+      .technologies-list li p, .technologies-learning-list li p, .other-list li p{
+            font-size: 3vw;
+      }
+      .other{
+            display: none;
+      }
 }

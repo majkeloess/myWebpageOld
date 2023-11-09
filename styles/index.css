@@ -4,16 +4,20 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 3rem;
-      padding-top: 100px;
-      padding-bottom: 100px;
+      gap: 3vw;
+      padding: 10vw;
 }
 
 .intros img{
-      max-width: 300px;      
+      max-width: 20vw;      
 }
 
-
+.intro{
+      max-width: 50vw;
+}
+.name-h2{
+      font-size: 1.8vw;
+}
 
 .intro p {
       font-size: 1rem;
@@ -22,11 +26,11 @@
 
 .intro .name {
       font-family: var(--mono);
-      font-size: 1rem;
+      font-size: 2vw;
 }
 
 .name span {
-      font-size: 4rem;
+      font-size: 6vw;
       color: var(--honey);
       display: block;
       font-weight: 300;
@@ -38,8 +42,8 @@
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
-      gap: 3rem;
-      font-size: 3rem;
+      gap: 4vw;
+      font-size: 4vw;
 }
 
 .media-links .media li a i{
@@ -49,3 +53,30 @@
 .media-links .media li a i:hover{
       color: white;
 }
+
+@media (max-width: 900px){
+      .center-container{
+            margin: 20vw;
+      }
+      .intro .name span{
+            font-size: 10vw;
+      }
+
+      .name-h2{
+            font-size: 2.4vw;
+      }
+
+      .intros{
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+      }
+      .intros img{
+            max-width: 40vw;
+      }
+      .media{
+            font-size: 6vw;
+      }
+}
+
+/* TODO: media project(0-1) */

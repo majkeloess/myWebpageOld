@@ -1,17 +1,39 @@
 @import "./nRoot.css";
 @import "./projectsButtonStyling.css";
 
-.projects-header{
-      font-size: 3rem;
+.projects{
+      display: flex;
+      justify-content: center;
+      align-items: center;
 }
 
 .projects-list{
       display: flex;
       flex-direction: row;
       justify-content: space-around;
+      max-width: 100%; 
+      max-height: 100vh;
+      margin: 0;
+      padding: 0;
 }
 .projects-list li{
       list-style-type: none;
-      font-size: 2rem;
-      margin: 4rem;
+      font-size: 2vw;
+      padding: 0px;
+      margin: 4vh;
 }
+
+@media (max-width: 600px){
+      .projects-list{
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+      }
+
+      .projects-list li{
+            font-size: 7vw;
+            margin: 3rem;
+      }
+      
+}
+
