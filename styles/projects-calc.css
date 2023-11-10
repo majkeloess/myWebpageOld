@@ -114,6 +114,7 @@ button:hover{
             font-size: 170%;
             margin: 6px 1px 2px 1px;
             border-radius: 10px;
+            padding: 0;
       }
       .calculator{
             margin-top: 0px;
