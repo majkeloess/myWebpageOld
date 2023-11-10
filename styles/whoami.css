@@ -95,14 +95,11 @@ h2{
             align-items: center;
             justify-content: center;
       }
-      .general-info{
-            margin-top: 10vh;
-      }
       .info-item i{
-            font-size: 4vw;
+            font-size: 5vw;
       }
       .info-item p{
-            font-size: 2vw;
+            font-size: 3vw;
       }
       .technologies-list li i, .technologies-learning-list li i, .other-list li i{
             font-size: 10vw;
@@ -110,7 +107,4 @@ h2{
       .technologies-list li p, .technologies-learning-list li p, .other-list li p{
             font-size: 3vw;
       }
-      .other{
-            display: none;
-      }
-}
+}     
