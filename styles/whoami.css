@@ -107,4 +107,7 @@ h2{
       .technologies-list li p, .technologies-learning-list li p, .other-list li p{
             font-size: 3vw;
       }
+      .other{
+            display: none;
+      }
 }     
