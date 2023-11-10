@@ -106,3 +106,36 @@ button:hover{
 .media-links .media li a i:hover{
       color: white;
 }
+
+@media (max-width: 900px){
+      button{
+            width: 50px;
+            height: 50px;
+            font-size: 170%;
+            margin: 6px 1px 2px 1px;
+            border-radius: 10px;
+      }
+      .c {
+            width: 110px;
+            height: 50px;
+      }
+      .zero {
+            width: 172px;
+            height: 50px;
+      }
+      .calculator-area {
+            max-width: 250px;
+            max-height: 300px;
+      }
+      .output{
+            font-size: 2.5rem;
+      }
+      .display-area{
+            width: 230px;
+            height: 40px;
+            color: white;
+            font-family: var(--font);
+            text-align: end;
+            /* margin: 10px 10px 10px 10px; */
+      }
+}
