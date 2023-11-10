@@ -54,16 +54,20 @@
       color: white;
 }
 
-@media (max-width: 900px){
+@media (max-width: 700px){
       .center-container{
-            margin: 20vw;
+            margin: 5vw;
+            padding: 0;
       }
       .intro .name span{
-            font-size: 10vw;
+            font-size: 9vw;
       }
-
+      .name {
+            font-size: 20vw;
+      }
+      
       .name-h2{
-            font-size: 2.4vw;
+            font-size: 2.6vw;
       }
 
       .intros{
@@ -72,11 +76,9 @@
             padding: 0;
       }
       .intros img{
-            max-width: 40vw;
+            max-width: 60vw;
       }
       .media{
-            font-size: 6vw;
+            font-size: 10vw;
       }
 }
-
-/* TODO: media project(0-1) */
