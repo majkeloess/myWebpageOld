@@ -132,6 +132,7 @@ button:hover{
             align-items: center;
       } */
       .calculator-area {
+            display: block;
             width: 290px;
             height: 290px;
             justify-content: center;
