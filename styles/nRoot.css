@@ -99,17 +99,29 @@ footer {
       color: var(--honey);
 }
 
+
 @media (max-width: 900px){
       nav{
             font-size: 90%;
       }
+      nav ul {
+            column-gap: 1rem;
+      }
+      .media-honey{
+            color: #F2BA52;
+      }
+      .media-honey:hover{
+            color: white;
+      }
       .nav-img {
-            max-width: 70px;
+            max-width: 40px;
       }
 
       nav ul li h1 a {
             color: #F2BA52;
-            font-size: 1.5rem;
+            font-size: 1rem;
+            display: none;
+            
       }
 
       
