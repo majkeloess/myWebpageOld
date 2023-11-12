@@ -9,28 +9,27 @@
 }
 
 .intros img{
-      max-width: 20vw;      
+      max-width: 14vw;      
 }
 
 .intro{
-      max-width: 50vw;
+      max-width: 40vw;
 }
 .name-h2{
-      font-size: 1.8vw;
+      font-size: 1.4vw;
 }
 
 .intro p {
-      font-size: 1rem;
+      font-size: 1vw;
       line-height: 1.5;
 }
 
 .intro .name {
-      font-family: var(--mono);
-      font-size: 2vw;
+      font-size: 1.7vw;
 }
 
 .name span {
-      font-size: 6vw;
+      font-size: 4vw;
       color: var(--honey);
       display: block;
       font-weight: 300;
@@ -42,8 +41,8 @@
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
-      gap: 4vw;
-      font-size: 4vw;
+      gap: 3vw;
+      font-size: 2.8vw;
 }
 
 .media-links .media li a i{
@@ -56,18 +55,18 @@
 
 @media (max-width: 700px){
       .center-container{
-            margin: 5vw;
+            margin: 0;
             padding: 0;
       }
       .intro .name span{
-            font-size: 9vw;
+            font-size: 6vw;
       }
       .name {
             font-size: 20vw;
       }
       
       .name-h2{
-            font-size: 2.6vw;
+            font-size: 2.2vw;
       }
 
       .intros{
@@ -76,9 +75,9 @@
             padding: 0;
       }
       .intros img{
-            max-width: 60vw;
+            max-width: 40vw;
       }
       .media{
-            font-size: 10vw;
+            font-size: 6vw;
       }
 }
