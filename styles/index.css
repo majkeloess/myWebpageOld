@@ -76,7 +76,8 @@
       }
       .media-text{
             display: flex;
-            font-size: 10vw;
+            font-size: 12vw;
+            margin: 5vh;
       }
       
       .name-h2{
@@ -86,7 +87,7 @@
 
       .intros{
             flex-direction: column;
-            margin: 0;
+            margin: 5vh;
             padding: 0;
       }
       .intros img{
