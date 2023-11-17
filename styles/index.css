@@ -87,7 +87,6 @@
 
       .intros{
             flex-direction: column;
-            margin: 5vh;
             padding: 0;
       }
       .intros img{
