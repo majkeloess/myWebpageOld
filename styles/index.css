@@ -14,6 +14,7 @@
 
 .intro{
       max-width: 40vw;
+      text-align: left;
 }
 .name-h2{
       font-size: 1.4vw;
@@ -22,6 +23,10 @@
 .intro p {
       font-size: 1vw;
       line-height: 1.5;
+}
+
+.media-text{
+      display: none;
 }
 
 .intro .name {
@@ -59,14 +64,24 @@
             padding: 0;
       }
       .intro .name span{
-            font-size: 6vw;
+            font-size: 8.5vw;
+            display: none;
       }
       .name {
             font-size: 20vw;
+            display: none;
+      }
+      .honey{
+            margin: 0;
+      }
+      .media-text{
+            display: flex;
+            font-size: 10vw;
       }
       
       .name-h2{
             font-size: 2.2vw;
+            display: none;
       }
 
       .intros{
@@ -75,9 +90,9 @@
             padding: 0;
       }
       .intros img{
-            max-width: 40vw;
+            max-width: 60vw;
       }
       .media{
-            font-size: 6vw;
+            font-size: 10vw;
       }
 }
