@@ -77,7 +77,7 @@
       .media-text{
             display: flex;
             font-size: 12vw;
-            margin: 5vh;
+            margin-bottom: 2vh;
       }
       
       .name-h2{
